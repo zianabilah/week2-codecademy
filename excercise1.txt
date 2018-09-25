@@ -1,0 +1,41 @@
+
+nomor 1.var massa=600;
+	var percepatan=2;
+	var ressultangaya;
+
+	ressultangaya = (percepatan * massa );
+
+	console.log(ressultangaya);
+	alert(result=(""+ ressultangaya));
+
+
+
+
+
+nomor2. store "years" to any number
+	
+	if "years" % 4 = 0
+	  do "tahun kabisat"
+
+	else "years" % 100 = 0
+	  do "bukan tahun kabisat"
+
+	if "years" % 400 = 0
+	  do "tahun kabisat"
+	else 
+	do " bukan kabisat"
+
+	Do "bukan kabisat"
+
+nomor 3. store " washing storage" with 0
+
+	while " washing storage" <= 20
+	  add " full level" by 2
+	
+	display "machine is starting"
+
+nomor 4. store "students" to 40
+	
+	while "student" < 40
+		
+
