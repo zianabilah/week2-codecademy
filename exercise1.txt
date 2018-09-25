@@ -1,0 +1,84 @@
+
+nomor 1.var massa=600;
+	var percepatan=2;
+	var ressultangaya;
+
+	ressultangaya = (percepatan * massa );
+
+	console.log(ressultangaya);
+
+	alert(result=(""+ ressultangaya));
+
+
+
+
+
+nomor2. store "years" to any number
+	
+	if "years" % 4=== 0
+	  do "tahun kabisat"
+
+	else if "years" % 100=== 1
+	  do "bukan tahun kabisat"
+
+	else if "years" % 400== 0
+	  do "tahun kabisat"
+	else 
+	do " bukan kabisat"
+
+
+var tahun = 2024;
+
+
+if(tahun%4===0){
+
+  console.log(tahun +' tahun kabisat');
+
+} else if (tahun%100===1){
+
+  console.log(tahun +' tahun kabisat');
+
+}else if (tahun%400===0){
+
+  console.log(tahun +' tahun kabisat');
+
+} else{
+
+  console.log(tahun + ' bukan tahun kabisat');
+}
+
+
+
+nomor 3.
+ store " washing storage" with 0
+
+while " washing storage" < 20
+ add " full level" by 5
+	
+display "machine is starting"
+
+
+var baju= 20;
+var terisi= 0;
+
+while(terisi<20){
+  terisi += 5;
+console.log('sudah terisi:' + terisi)
+}
+
+console.log('machine is starting');
+
+
+nomor 4. store "students" with 40
+	
+	while "student" < 40
+	add "student" by 1
+
+	 if (student==="berkuku panjang")
+	 do "punishment"
+	esle
+	 do "prise"
+	
+
+		
+
