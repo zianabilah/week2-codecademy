@@ -1,41 +1,55 @@
 
-nomor 1.var massa=600;
-	var percepatan=2;
-	var ressultangaya;
+nomor 1.
 
-	ressultangaya = (percepatan * massa );
+STORE "massa" with any value
+STORE "percepatan" with any value
+STORE "ressultangaya" without any value
 
-	console.log(ressultangaya);
-	alert(result=(""+ ressultangaya));
+CALCULATE "massa" times "height"
+SET "ressultangaya" value with calculation result
+
+DISPLAY "ressultangaya"
 
 
 
 
 
-nomor2. store "years" to any number
+
+nomor2. 
+store "years" to any number
 	
-	if "years" % 4 = 0
-	  do "tahun kabisat"
+if "years" % 4 = 0
+ do "tahun kabisat"
 
-	else "years" % 100 = 0
-	  do "bukan tahun kabisat"
+else "years" % 100 = 0
+ do "bukan tahun kabisat"
 
-	if "years" % 400 = 0
-	  do "tahun kabisat"
-	else 
-	do " bukan kabisat"
+if "years" % 400 = 0
+ do "tahun kabisat"
+else 
+ do " bukan kabisat"
 
-	Do "bukan kabisat"
+ Do "bukan kabisat"
 
-nomor 3. store " washing storage" with 0
+nomor 3. 
+store " washing storage" with 0
 
-	while " washing storage" <= 20
-	  add " full level" by 2
+while " washing storage" <= 20
+  add " full level" by 2
 	
-	display "machine is starting"
+  display "machine is starting"
 
-nomor 4. store "students" to 40
+nomor 4. 
+store "students" to 40
+store "berkuku panjang= "student"%2=0
 	
 	while "student" < 40
+	add "student" by 1
+
+if "student"==== berkuku panjang
+	do "diberi hukuman"
+else 
+	do "di puji"
+
 		
 
