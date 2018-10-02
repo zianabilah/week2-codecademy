@@ -12,35 +12,39 @@ DISPLAY "ressultangaya"
 
 
 
-
-
-
 nomor2. 
 store "years" to any number
-	
-if "years" % 4 = 0
- do "tahun kabisat"
+store "jenis tahun" with out any value
 
-else "years" % 100 = 0
- do "bukan tahun kabisat"
-
-if "years" % 400 = 0
- do "tahun kabisat"
+if  "years" % 4 = 0 and "years"  % 100 > 0
+	do "tahun kabisat" 
+ else if  "years" % 4 = 0 , "years" % 100 = 0 and "years" % 400 = 0
+	do  "tahun kabisat" 
 else 
- do " bukan kabisat"
+	do "bukan tahun kabisat"
 
- Do "bukan kabisat"
+Algoritma
+
+1. Simpan tahun dengan nilai 2016
+2. Jika "tahun" habis dibagi 4 dan "tahun" tidak habis dibagi 100,lakukan "Tahun Kabisat"
+3. Jika "tahun" habis dibagi 4 , "tahun" habis di bagi 100 dan "tahun habis dibagi 400. lakukan "Tahun Kabisat"
+4. Jika tidak keduanya , lakukan "Bukan Tahun Kabisat"
 
 nomor 3. 
 store " washing storage" with 0
 
 while " washing storage" <= 20
-  add " full level" by 2
+  add "washing storage" by 1
 	
   display "machine is starting"
 
+algoritma
+1.simpan "washing storage" dengan nilai 0
+2.ketika "washing storage" masih lebih kecil sama dengan 20 , maka tambahkan satu
+3.ketika sudah mencapai 20 , tampilkan "machine is starting"
+
 nomor 4. 
-store "students" to 40
+store "students" to 0
 store "berkuku panjang= "student"%2=0
 	
 	while "student" < 40
@@ -50,6 +54,13 @@ if "student"==== berkuku panjang
 	do "diberi hukuman"
 else 
 	do "di puji"
+
+algoritma
+1.simpan "student" dengan  0
+2.simpan "berkuku panjang" dengan nilai "student" modulus 2 sama dengan 0 
+3.ketika "student" kurang dari 40 . tambah kan  1 pada  "student"
+4.Jika "student" merupakan "berkuku panjang" , maka lakukan "di beri hukuman"
+5. jika tidak lakukan "di puji"
 
 		
 
