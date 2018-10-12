@@ -29,12 +29,13 @@ for (var deret = 20; deret >=2 ; deret--){
 }
 
 
-for(var counter= 0; counter>= 100 ; counter++){
+for(var counter= 1; counter<= 100 ; counter++){
   if (counter%2==0){
     console.log(counter + " " +"GENAP")
   } else{
     console.log(counter + " " + "GANJIL")
   }
+}
 }
 
 
