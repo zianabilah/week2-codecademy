@@ -16,9 +16,9 @@ nomor2.
 store "years" to any number
 store "jenis tahun" with out any value
 
-if  "years" % 4 = 0 and "years"  % 100 > 0
+if  "years" % 4 equal to 0 and "years"  % 100 > 0
 	do "tahun kabisat" 
- else if  "years" % 4 = 0 , "years" % 100 = 0 and "years" % 400 = 0
+ else if  "years" % 4 equal to 0 , "years" % 100 equal to 0 and "years" % 400 equal to 0
 	do  "tahun kabisat" 
 else 
 	do "bukan tahun kabisat"
@@ -45,22 +45,18 @@ algoritma
 
 nomor 4. 
 store "students" to 0
-store "berkuku panjang= "student"%2=0
-	
-	while "student" < 40
-	add "student" by 1
-
-if "student"==== berkuku panjang
-	do "diberi hukuman"
-else 
-	do "di puji"
+while "student" < 40
+	if  berkuku panjang
+		do "diberi hukuman"
+	else 
+		do "di puji"
+add "student" by 1
 
 algoritma
 1.simpan "student" dengan  0
-2.simpan "berkuku panjang" dengan nilai "student" modulus 2 sama dengan 0 
-3.ketika "student" kurang dari 40 . tambah kan  1 pada  "student"
-4.Jika "student" merupakan "berkuku panjang" , maka lakukan "di beri hukuman"
-5. jika tidak lakukan "di puji"
+2.Jika "berkuku panjang" , maka lakukan "di beri hukuman"
+3. jika tidak lakukan "di puji"
+4.ketika "student" kurang dari 40 . tambah kan  1 pada  "student"
 
 		
 
